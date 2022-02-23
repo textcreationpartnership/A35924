@@ -1,0 +1,431 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Dialogue concerning the times between Philobelgus and Sophronius.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1688</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 27 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A35924</idno>
+            <idno type="STC">Wing D1363</idno>
+            <idno type="STC">ESTC R24293</idno>
+            <idno type="EEBO-CITATION">08118785</idno>
+            <idno type="OCLC">ocm 08118785</idno>
+            <idno type="VID">40879</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A35924)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 40879)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1227:18)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Dialogue concerning the times between Philobelgus and Sophronius.</title>
+               </titleStmt>
+               <extent>8 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[S.l. :</pubPlace>
+                  <date>1688?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  Politics and government --  1660-1714.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-05</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2013-05</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="dialogue">
+            <pb n="1" facs="tcp:40879:1" rendition="simple:additions"/>
+            <head>A DIALOGUE Concerning the TIMES.</head>
+            <head type="sub">Between <hi>Philobelgus</hi> and <hi>Sophronius.</hi>
+            </head>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>HOw is it <hi>Sophronius,</hi> how goes the World now?</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Go? I believe not ſo well as was generally expected.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Come, you are ſo full of your Hy<g ref="char:EOLhyphen"/>pocondriacal Fancies? Prythee why don't you take a little Phyſick this Spring?</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Look you! I am probably as Sanguinly inclined as your ſelf, but my preſent Circumſtances are a great check upon my Complexion; and I think it an unnatural impoſition to require a Man to make himſelf merry with his own Misfor<g ref="char:EOLhyphen"/>tunes.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Your Grievances.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>To ſpeak comprehenſively they are the Dutch, and their Attendants, <hi>viz.</hi> Taxes, Loſſes, and ſtop in Trade: I'm ſure my Eſtate ſuffered conſiderably by all Three of them the laſt Year, and you know my caſe was not ſingular: And truly at the rate that Honour and Con<g ref="char:EOLhyphen"/>ſcience go now a days, for ought I ſee, a little Money is the only Thing one can truſt to: Now when a Man looſes his beſt Friend thus unhappily, I hope you will give him leave to pay a decent reſpect to his Memory, and put his Humour a little into Mourning.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Pray give over your Philoſophical Cant; don't you know we have a new Parliament ready to fit; there you will have a Cure for all your Maladies.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>I know there will be a publick
+<pb n="2" facs="tcp:40879:2" rendition="simple:additions"/>Meeting at <hi>Weſtminſter;</hi> but I'm afraid the Effects of it will not be ſo powerfully kind as yo<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſeem to expect.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Ne're queſtion it! The greateſt part of theſe Members are known to be Church of <hi>England</hi> Men, and well affected to Kingly Government; ſo that the Mo<g ref="char:EOLhyphen"/>narchy and the Proteſtant Religion will be effectually ſecured by them: For the Church of <hi>England</hi> Side being ſo conſide<g ref="char:EOLhyphen"/>rable a Majority both for Numbers, Qua<g ref="char:EOLhyphen"/>lity, and Intereſt, whatever is Legiſlative<g ref="char:EOLhyphen"/>ly done by that Party, muſt by conſe<g ref="char:EOLhyphen"/>quence be received with the moſt general Satisfaction: This Expedient will ſilence our Political Diſputes, and lay our Ani<g ref="char:EOLhyphen"/>moſittes aſleep. And when we are once thus happily united, you may without flattery promiſe your ſelf, that <hi>Ireland</hi> will be reduced in a ſhort time.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>No doubt of it and <hi>France</hi> too: But pray what Meaſures do you think will be taken by theſe <hi>Weſtminſter</hi> Lords and Gentlemen, in order to the performing theſe extraordinary Things?</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Though I don't love to pronounce upon the Actions of ſo conſiderable a Body, yet ſince you ask me that Queſtion, I'le venture to tell you it's my Opinion, They will confirm the Proceedings of the late Convention and Parliament.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>That may be; but methinks you give an untoward reaſon for your Opinion: For why ſhould Men of the Church of <hi>England</hi> Perſwaſion confirm the Proceedings of Republicans and Presbyterians, for ſuch you grant had the Aſcendant over the Houſes the laſt Year?</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Upon Emergency of State we muſt bend our Principle a little; when the Ne<g ref="char:EOLhyphen"/>ceſſity is once over we can return Streight at leiſure.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Well! I find it's a great happi<g ref="char:EOLhyphen"/>neſs to have a Conſcience with a Muſcular Motion, that can ſtretch and contract as occaſion ſerves. But what makes you talk about mending the Acts of the late Aſſembly at <hi>Weſtminſter,</hi> Are the new Laws out of Repair already?</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>To deal franckly, I'm afraid they were never well put together; for the Writs by vertue of which the Convention met, were neither ſent by the King, nor directed to the Sheriffs, both which ought to have been done according to the ſtated Forms of our Conſtitution.</p>
+               <p>Now though I am not willing to be of the Opinion of a late Authour, that theſe Omiſſions are <hi>ſuch Eſſential Nullities as no ſubſequent Ratification can remedy,</hi> (Reflect upon Parl. Pacif. p. 1.) yet I think they ought to be ſupplied by a regularly con<g ref="char:EOLhyphen"/>vened Authority.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Now you are upon Omiſſions, give me leave to mention another: You may remember the Convention neglected to take the Oaths of Allegiance and Su<g ref="char:EOLhyphen"/>premacy. Now this ſome People will interpret in an unfortunate Sence. Be<g ref="char:EOLhyphen"/>cauſe there are Two Statutes which ſay expreſsly, That every Thing which the Lords and Commons, do before they have taken the ſaid Oaths is <hi>Null</hi> and <hi>Void.</hi> 7 <hi>Jac.</hi> 1.30 <hi>Car.</hi> 2.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Don't trouble your ſelf, here will be ſwearing enough this bout.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>In good time! But ſtill I am ſorry to hear the late Acts at <hi>Weſtminſter</hi> wants confirming.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Why ſo?</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Becauſe if they want confirm<g ref="char:EOLhyphen"/>ing, (eſpecially upon ſuch material Ac<g ref="char:EOLhyphen"/>counts;) they are imperfect, and conſe<g ref="char:EOLhyphen"/>quently properly ſpeaking no Laws at all. For Law, like moral Good, depends <hi>Ex<g ref="char:EOLhyphen"/>integra
+<pb n="3" facs="tcp:40879:2"/>Cauſa;</hi> if any due Circumſtance be wanting it looſes its Nature, and never riſes into any Authorty.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>If they are not entirely perfect, they come very little ſhort, and ought to be regarded accordingly.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Under favour you are out, they are certainly either compleat, or null: For we muſt obſerve that an Act of Par<g ref="char:EOLhyphen"/>liament is not like Cloth and Ribbans, va<g ref="char:EOLhyphen"/>luable in Nails and Remnants; there is no ſuch Thing as half, or three quarters Law; either it muſt hold out to the end of the Meaſure, or it's good for nothing. Now do you think your Arguments, which prove the Defects, and conſequently the Nullity of the late <hi>Weſtminſter</hi> Proceed<g ref="char:EOLhyphen"/>ings, has not brought us into a fine Con<g ref="char:EOLhyphen"/>dition? What has the <hi>Habeas Corpus</hi> Act been ſhackled, New Oaths framed, the Clergy Suſpended and Deprived, the Peoples Pockets drained, a Court Mar<g ref="char:EOLhyphen"/>tial ſet up, <hi>&amp;c.</hi> and all without Law? For it ſeems the late <hi>Ordinances</hi> have no ſuffi<g ref="char:EOLhyphen"/>cient Authority till they receive it from the next Meeting. Has not Liberty and Property been admirably ſecured all this while? Why were not thoſe Members as you call them Diſſolved, as ſoon as their <hi>Head</hi> was Choſen, to make room for a le<g ref="char:EOLhyphen"/>gal Aſſembly if it could be had; for to what purpoſe ſhould they ſit, when they were under an incapacity of doing any Parliamentary Act? This I mention to let you underſtand what an odd Opinion the People will be apt to have of the <hi>Weſtmin<g ref="char:EOLhyphen"/>ſter-Tranſactions,</hi> and by conſequence of the whole Revolution, if you pretend to mend, and ſtrengthen the Authority upon which they ſtand.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>I conceive you; but after all I muſt add that how ſingular ſoever a Confirma<g ref="char:EOLhyphen"/>tion may look, its an Expedient abſolutely neceſſary: For beſides ſome other Defects in point of Form, the King's <hi>Writs</hi> and their omitting to take the Oaths of Al<g ref="char:EOLhyphen"/>legiance and Supremacy above mentioned, are ſuch invincible Objections that there is no getting over them.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>As you ſay the Objections preſs very hard; but are you ſure they will be removed by the <hi>Confirmation</hi> you expect from the enſuing <hi>Meeting</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Yes, what ſhould hinder their re<g ref="char:EOLhyphen"/>moval? Are not the Royal Writs Iſſued out according to the Formalities of the Law? And as for the Oaths you need not fear the Members will forget to take them.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Right! but Oaths are ſometimes ſo unfortunate as to prove their point no more than Wagers. For the purpoſe, ſup<g ref="char:EOLhyphen"/>poſe for Arguments ſake a Man is about to ſwear himſelf into ſome poſt of power or advantage, and Confined to a particu<g ref="char:EOLhyphen"/>lar Object well enough known, if he would but take day light along with him; but the Man for Reaſons beſt underſtood by himſelf, chuſes to ſwear in the dark, and and ſo ſtumbles upon a wrong perſon. I deſire to know what his Oath ſignifies in ſuch a Caſe?</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Not much to his Buſineſs: but I'm afraid your Inſtance has no kind Applica<g ref="char:EOLhyphen"/>tion in it. To come out of the Clouds therefore, I would gladly underſtand what Objection can be fairly made againſt the Authority of the enſuing Parliament.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Excuſe me there, I am not wil<g ref="char:EOLhyphen"/>ling to meddle with that point! But if you have a mind to put a feign'd Caſe, and lay the Scene in <hi>Utopia,</hi> I don't care if I diſ<g ref="char:EOLhyphen"/>courſe with you upon a reſembling Argu<g ref="char:EOLhyphen"/>ment only to ſupport Converſation a little.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Pray let us hear what a Talent you have at Romancing.</p>
+            </sp>
+            <sp>
+               <pb n="4" facs="tcp:40879:3" rendition="simple:additions"/>
+               <speaker>Sophr.</speaker>
+               <p>Well then to take Sir <hi>Tho. Moore</hi>'s Liberty, let us ſuppoſe the <hi>Utopians</hi> under an Hereditary Monarchy, and that as long as the Royal Line continues, the People have no more right to chooſe their King than their God; ſuppoſe that the Laws of that Kingdom expreſly declare it <hi>Unlawful to take up Arms againſt the King upon any pre<g ref="char:EOLhyphen"/>tence whatever;</hi> and that bare <hi>Poſſeſſion</hi> againſt <hi>Right,</hi> has no countenance from the <hi>Utopian</hi> Conſtitution. Suppoſe a Mo<g ref="char:EOLhyphen"/>narch thus invincibly fortified by Law, Op<g ref="char:EOLhyphen"/>poſed by one part of his Subjects, and De<g ref="char:EOLhyphen"/>ſerted by moſt part of the reſt, ſo that he is obliged to retire out of his Kingdom for the ſecurity of his Perſon and Honour. Upon this ſome part of the People, who were either inſtrumental in the Change, or wan<g ref="char:EOLhyphen"/>ted leiſure to recollect themſelves, or cou<g ref="char:EOLhyphen"/>rage to ſtand by the Laws; put themſelves under the Protection of a Foreign Prince, who had lately made a Deſcent upon the Kingdom without premiſing any Com<g ref="char:EOLhyphen"/>plaint by his Ambaſſadour, or demanding Satisfaction in a publick way. This Prince at the inſtance of ſome obnoctious and en<g ref="char:EOLhyphen"/>gaged Perſons, aſſembles a Select, and in ſome places a preconcerted number of the People, which the <hi>Utopians</hi> call a <hi>Conven<g ref="char:EOLhyphen"/>tion.</hi> This meeting having neither the Eſ<g ref="char:EOLhyphen"/>ſence, nor ſo much as the form of Law, tells the Nation (though by a very ſlen<g ref="char:EOLhyphen"/>der Majority) that the King had <hi>Reſigned</hi> the <hi>Government;</hi> though beſides other de<g ref="char:EOLhyphen"/>monſtrative proofs, they had his Letters on the Table to convince them on the con<g ref="char:EOLhyphen"/>tray. Theſe Men as the <hi>Utopian</hi> Hiſtory informs us, notwithſtanding they had no Right to diſpoſe of ſixpenny worth of Pro<g ref="char:EOLhyphen"/>perty, made no difficulty to deſeiſe their King of his Crown and Dignity; to the maintenance and ſupport of which they are obliged to ſwear before they can enter upon any part of the Legeſlative Authority. Af<g ref="char:EOLhyphen"/>ter this remarkable beginning they pro<g ref="char:EOLhyphen"/>ceed to chooſe the aforeſaid Forreign Prince their King, though every body knows <hi>Utopia</hi> is no Elective Monarchy. This Prince of their own making, and who by Conſequence could have no Authority but what they gave him; yet to make them ſome return for their kindneſs, gives them a Power vaſtly greater than they pretended to before, and ſublimates them into a Parliament (which ſignifies the ſame Thing in <hi>Utopia,</hi> it does with us.) This Meeting after ſome Tryal, he diſſol<g ref="char:EOLhyphen"/>ved probably among other Reaſons, be<g ref="char:EOLhyphen"/>cauſe he ſaw the People were not generally ſatisfied about the Legality of its Conſtitu<g ref="char:EOLhyphen"/>tion. Since, they ſay, he has ſummoned a New one, in which the uſual Prelimina<g ref="char:EOLhyphen"/>ries will be punctually obſerved; and yet ſome People fancy all this won't do nei<g ref="char:EOLhyphen"/>ther.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Why ſo?</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Becauſe the Convention, which is the Foundation upon which the late <hi>Uto<g ref="char:EOLhyphen"/>pian</hi> Revolution ſtands, had no Authority to tranſact publick buſineſs, and therefore their Proceedings though much more mo<g ref="char:EOLhyphen"/>derate might juſtly have been excepted againſt.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Your Reaſon.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Becauſe they Convened them<g ref="char:EOLhyphen"/>ſelves by vertue of a Foreign Authority without the Kings Summons; neglected to make thoſe ſolemn Tenders of Duty and Allegieuce to their Sovereign which the Law requires, and wanted the Royal Aſſent to give life to their Votes. Now if the Convention was an Unlawful Aſſembly, the whole Foundation is Sapped, and then all the Superſtructure muſt tumble into Rubbiſh.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Though I can't ſay I am pleaſed
+<pb n="5" facs="tcp:40879:3"/>with your Entertainment, yet pray go on, and be as clear as you can; for ſince we are diſcourſing about a Subject which is Viſionary and Romantick, we may ſpeak as intelligibly as we pleaſe.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>I ſay then if the <hi>Convention</hi> was a private unauthorized Meeting, if they had no Power to ſet aſide their Old, and make another King; then their New Governour can have no Right to to the Regal Stile and Authority. <hi>Nihil dat quod non habet:</hi> A man cannot receive that from another, which he has no power to give. Nothing but a <hi>Nullity</hi> can proceed from a <hi>Nullity,</hi> for no effect can riſe above the Virtue and Efficacy of its Cauſe. Such eſſential Defects in the Principles of Go<g ref="char:EOLhyphen"/>vernment are like Errours in the firſt Con<g ref="char:EOLhyphen"/>coction, never to be rectified: And there<g ref="char:EOLhyphen"/>fore the aſſuming the uſual Forms, and appearing in the ſhape of the Old Con<g ref="char:EOLhyphen"/>ſtitution, is to ſpeak ſoftly, but Pageantry and Varniſh, at the beſt.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>I am told that about the year 1660, in the Reign of Don <hi>Carlo's,</hi> there was a Parliament made out of a Con<g ref="char:EOLhyphen"/>vention, which was ſoon after diſſolved, and another convened according to Law: In which the Acts of the former were confirmed. Which confirmation paſſing upon them they were always looked up<g ref="char:EOLhyphen"/>on as unqueſtionable Law; though I grant you they would have been null and unauthoritative without it. And pray has not a Parliament as much Au<g ref="char:EOLhyphen"/>thority now, as it had Thirty years ſince.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>No doubt on't. But you mi<g ref="char:EOLhyphen"/>ſtake the point horribly; the caſe is by no means the ſame.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Where lies the difference?</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>I wonder you don't perceive it! Pray was Don <hi>Carlo's</hi> a Conventionary King. Did he derive his Power from the Election of the People? on the contrary was not his Title and Authority wholy founded upon Hereditary Right accord<g ref="char:EOLhyphen"/>ing to the known Laws of the Monar<g ref="char:EOLhyphen"/>chy? I confeſs if his Father had been then living, or he had broke in upon the Succeſſion your precedent would have held, but now it's nothing to the purpoſe.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Make it clearer if you can.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Clearer ſtill! Why don't you know there can be no Parliament in <hi>Uto<g ref="char:EOLhyphen"/>pia</hi> without a King; for there, <hi>Rexeſt ca<g ref="char:EOLhyphen"/>put, principium, &amp; finis Parliamenti;</hi> as a great Lawyer has it.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>And have not the Utopians made themſelves a new King, what would you have more?</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>I perceive you have forgotten what we have diſcourſed already con<g ref="char:EOLhyphen"/>cerning the incompetent Authority upon which their preſent Eſtabliſhment is found<g ref="char:EOLhyphen"/>ed, and that they have nothing but Air for their Baſis; however I ſhall only re<g ref="char:EOLhyphen"/>freſh your memory with Two Queſtions, your Anſwer to which will I ſuppoſe give you full ſatisfaction. Pray can a Prince forfeit when the Laws expreſsly declare him irreſiſtable, and that his People have no Authority to call him to an account.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>No.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Then if he was once King, he muſt continue ſo as long as he lives, ex<g ref="char:EOLhyphen"/>cept he is pleaſed to Reſign.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>I don't ſee Princes are very wil<g ref="char:EOLhyphen"/>ling to do that; but your other Queſtion.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>The next thing I ask you is whe<g ref="char:EOLhyphen"/>ther it be not a contradiction in Terms to chooſe a King in an Hereditary Mo<g ref="char:EOLhyphen"/>narchy?</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>I am ſorry I am obliged to An<g ref="char:EOLhyphen"/>ſwer yes; but the reaſon is ſo plain that there is no help for it.</p>
+            </sp>
+            <sp>
+               <pb n="6" facs="tcp:40879:4"/>
+               <speaker>Sophr.</speaker>
+               <p>Very well! I ſuppoſe by this time you are ſufficiently convinced that this next Utopian Parliament as you call it is no more then a ſecond Edition of the Convention; and appears with all the great <hi>Errata</hi> of the <hi>firſt Impreſſion.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>You have an unlucky hand at telling a Story; for though we have made a long Voyage, and cut the Line for Con<g ref="char:EOLhyphen"/>verſation; yet methinks the caſe of the Utopians is ſo like our own that I can<g ref="char:EOLhyphen"/>not help being uneaſy at the Reſem<g ref="char:EOLhyphen"/>blance.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>You ſeem to have a tender Senſe of things; which I hope is no ill progno<g ref="char:EOLhyphen"/>ſtick.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Since you ſay ſo much, I muſt free<g ref="char:EOLhyphen"/>ly own to you, that in my Opinion the late turn of Affairs was very indefenſible, and I would not for the World have been engaged: But ſince it's brought about without my aſſiſtance, I think my ſelf obliged to ſtand by it, and not go mur<g ref="char:EOLhyphen"/>muring about, and unhinge the publick Settlement.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>How well we are, or are like to be <hi>Settled,</hi> upon our new Bottom, is pretty apparent: but granting the pre<g ref="char:EOLhyphen"/>ſent Eſtabliſhment was never ſo firm and agreeable, yet let me tell you that the abetting an obnoxious Intereſt, and uni<g ref="char:EOLhyphen"/>ting in un-maintainable Deſigns, is no bet<g ref="char:EOLhyphen"/>ter than a Confederacy of —, it's an open Defiance of Juſtice and Honour; and the Settlement of thoſe <hi>Quos dicere nolo.</hi> I perceive you are ſo good natured as not to throw a man out of his Houſe; but if he is once diſpoſſeſſed, though by never ſo remarkable a violence, none more forward then your ſelf to Garri<g ref="char:EOLhyphen"/>ſon it againſt him; and if he offers to re<g ref="char:EOLhyphen"/>turn at his peril be it. You are a little ſqueamiſh about beginning an ill thing, but an admirable ſecond: for rather then right ſhould take place, and oppreſſion be obliged to refund, you are bravely re<g ref="char:EOLhyphen"/>ſolved to venture your all. I deſire to know whether ſucceſs can change the na<g ref="char:EOLhyphen"/>ture of good and evil; or right is founded upon wrong? if not, what a monſtrous inconſiſtency is to practiſe that which we condemn, and maintain that which we abhor? will you engage your Advice, your Perſon, and your Intereſt, for the ſupport of violence? and imbark Body and Soul in a Cauſe which you own to be unaccountable? <hi>This is to be a parta<g ref="char:EOLhyphen"/>ker of other Mens Sins</hi> with a witneſs.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>I grant the Cauſe was unaccoun<g ref="char:EOLhyphen"/>table at firſt but—</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>At firſt! Then it is ſo ſtill: For undoubtedly that which it's unjuſt to get, it's unjuſt to keep; unleſs Impenitency be a Vertue, and freſh Injuries a ſufficient Sa<g ref="char:EOLhyphen"/>tisfaction for old ones.</p>
+               <p>In the Name of Reaſon conſider the weight of the Caſe, the ſingularity of the Guilt, and the extent of the Miſchief, and then keep your old Opinion if you can.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>I confeſs if I thought the former Government could recover without bring<g ref="char:EOLhyphen"/>ing Popery along with it, I could hearken to what you ſay.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Pray can you be made a Papiſt againſt your Will?</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>No. Religion of what denomi<g ref="char:EOLhyphen"/>nation ſoever ſuppoſes choiſe and convi<g ref="char:EOLhyphen"/>ction of Judgment.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Good! Then you may ſecure one, and every Body elſe by God's Grace may do as much: So that in fine there is no fear of looſing our Church, unleſs we betray it.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>But though our Proteſtant Faith cannot be wreſted from us, yet are we not like to ſuffer for adhering to it?</p>
+            </sp>
+            <sp>
+               <pb n="7" facs="tcp:40879:4"/>
+               <speaker>Sophr.</speaker>
+               <p>I'm afraid rather for not adhe<g ref="char:EOLhyphen"/>ring to it. God grant our Practiſe may be as regular, as our Profeſſion will be undiſturbed: Of all Nations we are moſt unlikely to have Experiments made upon us; you remember how Paſſive Obedience went in Eighty eight. But I am not at leiſure to argue this point any further with you; if you are unſatisfied you may conſult a late Book, called <hi>Vindiciae Juris Regii,</hi> which I am told will cure you of your Fears, if you are not over-grown with Spleen, and Prejudice. However at preſent granting (which I don't be<g ref="char:EOLhyphen"/>lieve) that your Apprehenſions were rea<g ref="char:EOLhyphen"/>ſonably founded, What are we the bet<g ref="char:EOLhyphen"/>ter? Would you have us keep out Popery right or wrong, or is nothing wrong which tends to ſo Sanctified an End?</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Truly, I think, Religion ought to be our principal Care, and ſecured by all Means.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>That is by all good Means and ill Means: Does St. <hi>Paul</hi> tell us that we may do Evil that Good come on't. Pray, what Church is that which we uſed to charge with ſuch Doctrin as this, with Depoſing Kings, and making Holy Wars to ſuppreſs Misbelievers? Which is ſo rank a Principle, that not many of the Jeſuits themſelves will own it.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>When you have ſaid all, I'm a<g ref="char:EOLhyphen"/>fraid the <hi>Beaſt</hi> in the <hi>Revelations</hi> ſhould prevail, except we make a vigorous Op<g ref="char:EOLhyphen"/>poſition.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>How can that be, when we have ſo much modern Prophecy againſt him? But ſetting aſide this miſtical Divi<g ref="char:EOLhyphen"/>nity, give me leave to ask you a Que<g ref="char:EOLhyphen"/>ſtion. Suppoſe you owed a Roman Ca<g ref="char:EOLhyphen"/>tholick a Sum of Money, could you find in your Conſcience to pay him, or would you cheat him for the Proteſtant Reli<g ref="char:EOLhyphen"/>gion?</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Cheat him no, God forbid!</p>
+            </sp>
+            <sp>
+               <speaker>Sohpr.</speaker>
+               <p>Very well! And for the ſame reaſon if you own him Allegiance ought you not to pay it? you know the Title of the Kings of <hi>England</hi> depends only upon Birth right, and Lineal Deſcent: ſo that let their Creed be what it will, their Authority is the ſame: And there<g ref="char:EOLhyphen"/>fore the obedience of the Subject ought to be proportionable. Nay when we have a Prince of a different Perſwaſion, we ſhould rather oblige our ſelves to a greater exactneſs of our Behaviour upon this account, to prevent all ſuſpicion of Diſaffection, and to preſerve the Honour of our Religion.</p>
+               <p>For the Love of God, therefore <hi>Philo<g ref="char:EOLhyphen"/>belgus,</hi> let us hear no more of this hor<g ref="char:EOLhyphen"/>rible Cant. Let us not give the World an occaſion to belive that Proteſtancy teaches us to break our Faith; and to be guilty of thoſe Crimes, which modeſt Heathens would bluſh at. Let us not defend the beſt of Churches, with the worſt of Pra<g ref="char:EOLhyphen"/>ctiſes. Nor damn one Age to ſecure the next. To uſe ſuch Expedients as theſe, is the way to ruin that which we would Support; and to make our Communion Nauſcious and Contemptible; for there is no Man of Natural Probity, none that is Generouſly Inclined, but will ſcorn a Religion which obliges him to be a Knave.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>You know our Religion does not give this ſcandalous Liberty.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>True: but if it be taken, how then?</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>You grow warm: But for my part I hope all will be well, becauſe as I obſerved to you, the Parliament con<g ref="char:EOLhyphen"/>ſiſts moſtly of Church of <hi>England</hi>-men.</p>
+            </sp>
+            <sp>
+               <pb n="8" facs="tcp:40879:5"/>
+               <speaker>Sophr.</speaker>
+               <p>I wiſh they may ſhow them<g ref="char:EOLhyphen"/>ſelves truly ſuch. I'm ſure their Qua<g ref="char:EOLhyphen"/>lity, the Principles they avow, and the State and poſture of Affairs, may juſtly raiſe the expectation of the Nation: ſo that a diſappointment now, would be much more unaccountable then former<g ref="char:EOLhyphen"/>ly. For a Man to miſtake his way in a Tempeſt, and to be over born with Tu<g ref="char:EOLhyphen"/>mult, and general Diſtraction; though it's very unfortunate has ſomething of excuſe in it. But to purſue the ſame ſteps upon thought and deliberation; when we have Light and Demonſtration to guide us. To chooſe confuſion for our Model; to perſiſt in ſo remarkable an error, when the mortal conſequence ſtares us in the Face, muſt mightily enflame the guilt, and make the blemiſh indeli<g ref="char:EOLhyphen"/>ble. 'Tis in the Power of theſe Lords and Gentlemen you ſpeak of to make a noble Stand: to revive the Intereſt, and retreive the Honour of their Coun<g ref="char:EOLhyphen"/>try and Religion: God grant them Re<g ref="char:EOLhyphen"/>ſolution to act up to the Opportunity.</p>
+            </sp>
+            <sp>
+               <speaker>Phil.</speaker>
+               <p>Hold! I have enough; and that you may not ſuſpect your Diſcourſe i<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> thrown away; I give you my word, I will conſider what you have ſaid.</p>
+            </sp>
+            <sp>
+               <speaker>Sophr.</speaker>
+               <p>Very well! if all People would do ſo impartially, it's eaſy to gueſs the effect: but I'm afraid it's the way of too many to hearken only to one ſide; or to think upon neither. <hi>Adieu.</hi>
+               </p>
+            </sp>
+         </div>
+         <trailer>FINIS.</trailer>
+      </body>
+   </text>
+</TEI>
